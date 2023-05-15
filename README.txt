@@ -21,9 +21,19 @@ Code to write tests (optional)
 
 What I expect in your repo:
 
-X. A readme with:   Your thoughts about the code. What makes it amazing code. Or what makes it ok code. Or what makes it terrible code. How would you have done it. Thoughts on formatting, structure, logic.. The more details that you can provide about the code (what's terrible about it or/and what is good about it) the easier for us to assess your coding style, mentality etc
+X. A readme with:   Your thoughts about the code. What makes it amazing code. Or what makes it ok code. Or what makes it terrible code. How would you have done it. Thoughts on formatting, structure, logic.. 
+The more details that you can provide about the code (what's terrible about it or/and what is good about it) the easier for us
+ to assess your coding style, mentality etc
 
 And 
+
+Answer: As Both Files BookingRepository and BookingController contains lots of code and function belongs with different entities/classes like
+User, and Job So this breaks the SOLID principle and OOP concepts which refers us techniques for maintaing and scalability code. so we have
+to seperate User, Job and Notification functionalities in seperate class files so it will become code more readable, maintainable, scalable
+and makes it easier for new or other to developer to work on this code. We have to follow OOP practices and SOLID principles design 
+concept to make this code better. otherwise it will create conflict and will become difficult to debug.
+
+
 
 Y.  Refactor it if you feel it needs refactoring. The more love you put into it. The easier for us to asses your thoughts, code principles etc
 
